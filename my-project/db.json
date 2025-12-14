@@ -1,0 +1,486 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@test.com",
+      "password": "123456",
+      "role": "Admin"
+    },
+    {
+      "id": "2",
+      "name": "Project Manager",
+      "email": "manager@test.com",
+      "password": "123456",
+      "role": "ProjectManager"
+    },
+    {
+      "id": "3",
+      "name": "Developer User",
+      "email": "dev@test.com",
+      "password": "123456",
+      "role": "Developer"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "Grant, Farrell and Lubowitz",
+      "status": "Pending",
+      "startDate": "2025-05-17",
+      "endDate": "2026-12-06",
+      "progress": 69,
+      "budget": 24566
+    },
+    {
+      "id": "2",
+      "name": "Heathcote LLC",
+      "status": "Completed",
+      "startDate": "2025-01-04",
+      "endDate": "2026-05-08",
+      "progress": 74,
+      "budget": 9942
+    },
+    {
+      "id": "3",
+      "name": "Lemke - Lemke",
+      "status": "Completed",
+      "startDate": "2025-10-19",
+      "endDate": "2026-09-04",
+      "progress": 61,
+      "budget": 36400
+    },
+    {
+      "id": "4",
+      "name": "Hettinger - Farrell",
+      "status": "Active",
+      "startDate": "2025-08-01",
+      "endDate": "2026-01-16",
+      "progress": 43,
+      "budget": 22112
+    },
+    {
+      "id": "5",
+      "name": "Kautzer Inc",
+      "status": "Completed",
+      "startDate": "2025-11-05",
+      "endDate": "2026-11-23",
+      "progress": 50,
+      "budget": 31574
+    },
+    {
+      "id": "6",
+      "name": "Hamill - Johns",
+      "status": "Pending",
+      "startDate": "2025-03-15",
+      "endDate": "2026-06-08",
+      "progress": 99,
+      "budget": 26455
+    },
+    {
+      "id": "7",
+      "name": "Cartwright and Sons",
+      "status": "Completed",
+      "startDate": "2025-06-30",
+      "endDate": "2026-04-18",
+      "progress": 30,
+      "budget": 21434
+    },
+    {
+      "id": "8",
+      "name": "Terry, Langosh and Ortiz",
+      "status": "Completed",
+      "startDate": "2025-07-30",
+      "endDate": "2026-08-17",
+      "progress": 85,
+      "budget": 5076
+    },
+    {
+      "id": "9",
+      "name": "Frami, Dickinson and Marquardt",
+      "status": "Pending",
+      "startDate": "2025-11-02",
+      "endDate": "2026-07-30",
+      "progress": 73,
+      "budget": 1790
+    },
+    {
+      "id": "10",
+      "name": "Lynch Group",
+      "status": "Active",
+      "startDate": "2025-08-24",
+      "endDate": "2026-04-09",
+      "progress": 69,
+      "budget": 28165
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Creta vespillo turba.",
+      "description": "Adimpleo cogo cubicularis sufficio vulnero.",
+      "status": "doing",
+      "priority": "high",
+      "assignedTo": "2",
+      "projectId": "1"
+    },
+    {
+      "id": "2",
+      "title": "Stultus arcus cubitum.",
+      "description": "Coniecto dolores sophismata amiculum.",
+      "status": "todo",
+      "priority": "low",
+      "assignedTo": "2",
+      "projectId": "1"
+    },
+    {
+      "id": "3",
+      "title": "Tyrannus ipsum ultra.",
+      "description": "Comes considero assumenda tricesimus confido ipsam.",
+      "status": "doing",
+      "priority": "medium",
+      "assignedTo": "1",
+      "projectId": "1"
+    },
+    {
+      "id": "4",
+      "title": "Voveo ventosus beatus.",
+      "description": "Eius veniam vorago causa magni.",
+      "status": "done",
+      "priority": "medium",
+      "assignedTo": "3",
+      "projectId": "1"
+    },
+    {
+      "id": "5",
+      "title": "Arto paulatim uredo.",
+      "description": "Ager cursus bardus defendo infit aliquid clibanus vestigium modi defluo.",
+      "status": "done",
+      "priority": "high",
+      "assignedTo": "1",
+      "projectId": "2"
+    },
+    {
+      "id": "6",
+      "title": "Suggero tumultus asperiores.",
+      "description": "Cito cohibeo sono amoveo sono valens subito decerno debitis.",
+      "status": "done",
+      "priority": "medium",
+      "assignedTo": "1",
+      "projectId": "2"
+    },
+    {
+      "id": "7",
+      "title": "Nostrum tot conduco.",
+      "description": "Tandem natus tantillus ager unde trado verbera aperiam aggredior aptus.",
+      "status": "doing",
+      "priority": "medium",
+      "assignedTo": "2",
+      "projectId": "2"
+    },
+    {
+      "id": "8",
+      "title": "Annus baiulus tondeo.",
+      "description": "Titulus absens ipsam vicissitudo non basium.",
+      "status": "done",
+      "priority": "medium",
+      "assignedTo": "3",
+      "projectId": "2"
+    },
+    {
+      "id": "9",
+      "title": "Adamo repellat adduco.",
+      "description": "Demergo animus illo aeger solitudo vulnus tenus natus.",
+      "status": "todo",
+      "priority": "high",
+      "assignedTo": "2",
+      "projectId": "3"
+    },
+    {
+      "id": "10",
+      "title": "Admiratio textor earum.",
+      "description": "Tertius cupiditas denique attonbitus commemoro tutis.",
+      "status": "todo",
+      "priority": "medium",
+      "assignedTo": "3",
+      "projectId": "3"
+    },
+    {
+      "id": "11",
+      "title": "Capillus veritatis versus.",
+      "description": "Delectus desipio combibo.",
+      "status": "todo",
+      "priority": "low",
+      "assignedTo": "1",
+      "projectId": "3"
+    },
+    {
+      "id": "12",
+      "title": "Capitulus timor vehemens.",
+      "description": "Cogito vomer fugit.",
+      "status": "doing",
+      "priority": "low",
+      "assignedTo": "2",
+      "projectId": "3"
+    },
+    {
+      "id": "13",
+      "title": "Voveo corrupti alo.",
+      "description": "Vix congregatio thermae thermae bellicus decipio.",
+      "status": "done",
+      "priority": "medium",
+      "assignedTo": "1",
+      "projectId": "4"
+    },
+    {
+      "id": "14",
+      "title": "Volaticus soleo uredo.",
+      "description": "Cenaculum desipio aegre.",
+      "status": "done",
+      "priority": "low",
+      "assignedTo": "2",
+      "projectId": "4"
+    },
+    {
+      "id": "15",
+      "title": "Benigne amiculum candidus.",
+      "description": "Reiciendis cicuta conturbo abscido copiose.",
+      "status": "doing",
+      "priority": "low",
+      "assignedTo": "2",
+      "projectId": "4"
+    },
+    {
+      "id": "16",
+      "title": "Clarus ratione acquiro.",
+      "description": "Acceptus antepono tergiversatio adipisci sum volup ut sulum vitae curtus.",
+      "status": "done",
+      "priority": "medium",
+      "assignedTo": "3",
+      "projectId": "4"
+    },
+    {
+      "id": "17",
+      "title": "Arcesso vilicus tristis.",
+      "description": "Anser patior acceptus supplanto absens ago caelum utique convoco.",
+      "status": "doing",
+      "priority": "medium",
+      "assignedTo": "1",
+      "projectId": "5"
+    },
+    {
+      "id": "19",
+      "title": "Avarus admoveo cum.",
+      "description": "Umquam acquiro verumtamen stabilis ventito.",
+      "status": "doing",
+      "priority": "high",
+      "assignedTo": "2",
+      "projectId": "5"
+    },
+    {
+      "id": "21",
+      "title": "Compello vaco traho.",
+      "description": "Vitiosus curo caries angulus coerceo arbustum aliquam pax.",
+      "status": "doing",
+      "priority": "medium",
+      "assignedTo": "1",
+      "projectId": "6"
+    },
+    {
+      "id": "22",
+      "title": "Spiculum bibo chirographum.",
+      "description": "Laborum conculco illo suasoria verecundia nobis candidus tamen.",
+      "status": "done",
+      "priority": "low",
+      "assignedTo": "3",
+      "projectId": "6"
+    },
+    {
+      "id": "23",
+      "title": "Delego tergum capio.",
+      "description": "Viriliter solus terebro sto bardus.",
+      "status": "doing",
+      "priority": "high",
+      "assignedTo": "3",
+      "projectId": "6"
+    },
+    {
+      "id": "24",
+      "title": "Absconditus alias conor.",
+      "description": "Deprecator centum contra bene curiositas blandior tutis defleo cibus vicissitudo.",
+      "status": "todo",
+      "priority": "high",
+      "assignedTo": "1",
+      "projectId": "6"
+    },
+    {
+      "id": "29",
+      "title": "Vesper deleo corrupti.",
+      "description": "Unde solio candidus teres appono asperiores placeat.",
+      "status": "todo",
+      "priority": "high",
+      "assignedTo": "2",
+      "projectId": "8"
+    },
+    {
+      "id": "30",
+      "title": "Chirographum vulticulus adhaero.",
+      "description": "Adficio temporibus calculus alii socius synagoga spiritus admoneo.",
+      "status": "todo",
+      "priority": "medium",
+      "assignedTo": "1",
+      "projectId": "8"
+    },
+    {
+      "id": "31",
+      "title": "Tollo aperte perspiciatis.",
+      "description": "Veniam brevis a vomer vaco verto cupressus tam benevolentia cruciamentum.",
+      "status": "done",
+      "priority": "low",
+      "assignedTo": "3",
+      "projectId": "8"
+    },
+    {
+      "id": "32",
+      "title": "Derideo cursim cohaero.",
+      "description": "Eaque thymum umquam vesco cognomen conforto pariatur decet vicissitudo cubicularis.",
+      "status": "doing",
+      "priority": "medium",
+      "assignedTo": "2",
+      "projectId": "8"
+    },
+    {
+      "id": "33",
+      "title": "Vulgivagus altus bos.",
+      "description": "Arceo ciminatio tergum eos ademptio.",
+      "status": "done",
+      "priority": "medium",
+      "assignedTo": "1",
+      "projectId": "9"
+    },
+    {
+      "id": "34",
+      "title": "Solvo crapula appositus.",
+      "description": "Suscipio speciosus carmen esse fugiat sunt contigo.",
+      "status": "done",
+      "priority": "medium",
+      "assignedTo": "1",
+      "projectId": "9"
+    },
+    {
+      "id": "35",
+      "title": "In unus minus.",
+      "description": "Dolore templum amo totidem.",
+      "status": "todo",
+      "priority": "medium",
+      "assignedTo": "2",
+      "projectId": "9"
+    },
+    {
+      "id": "36",
+      "title": "Carpo sit adfer.",
+      "description": "Et utique eligendi adeo arbitro theatrum deprimo decimus comis.",
+      "status": "todo",
+      "priority": "high",
+      "assignedTo": "2",
+      "projectId": "9",
+      "dueDate": ""
+    },
+    {
+      "id": "37",
+      "title": "Vado socius una.",
+      "description": "Viscus sublime tibi tabella pecco sunt sumptus adhaero ducimus.",
+      "status": "done",
+      "priority": "low",
+      "assignedTo": "2",
+      "projectId": "10"
+    },
+    {
+      "id": "38",
+      "title": "Dapifer culpa animus.",
+      "description": "Decumbo somnus inflammatio acsi addo substantia suffragium.",
+      "status": "done",
+      "priority": "high",
+      "assignedTo": "2",
+      "projectId": "10"
+    },
+    {
+      "id": "39",
+      "title": "Quidem defluo cado.",
+      "description": "Amet sophismata aureus demo volaticus addo.",
+      "status": "todo",
+      "priority": "low",
+      "assignedTo": "3",
+      "projectId": "10"
+    },
+    {
+      "id": "40",
+      "title": "Ver arx vomica.",
+      "description": "Harum vicinus utrum crinis sollicito sit compello attero deleo.",
+      "status": "todo",
+      "priority": "medium",
+      "assignedTo": "3",
+      "projectId": "10"
+    },
+    {
+      "projectId": "5",
+      "title": "eeeew",
+      "description": "wdd",
+      "status": "todo",
+      "priority": "high",
+      "assignedTo": "2",
+      "dueDate": "2025-12-25",
+      "id": "nmY0bOq"
+    },
+    {
+      "projectId": "5",
+      "title": ";ooooo",
+      "description": "mmm",
+      "status": "doing",
+      "priority": "high",
+      "assignedTo": "3",
+      "dueDate": "2025-12-31",
+      "id": "Qjpw3Rj"
+    },
+    {
+      "projectId": "7",
+      "title": "qqw",
+      "description": "aa",
+      "status": "done",
+      "priority": "medium",
+      "assignedTo": "1",
+      "dueDate": "2025-12-27",
+      "id": "RtERlHS"
+    },
+    {
+      "projectId": "7",
+      "title": "tgggddcx",
+      "description": "aaaadrd",
+      "status": "done",
+      "priority": "medium",
+      "assignedTo": "1",
+      "dueDate": "2025-12-27",
+      "id": "b-4y8Ic"
+    },
+    {
+      "projectId": "7",
+      "title": "qyyqrrrr",
+      "description": "aa;dvv",
+      "status": "done",
+      "priority": "high",
+      "assignedTo": "1",
+      "dueDate": "2025-12-27",
+      "id": "-_zjGCL"
+    },
+    {
+      "projectId": "9",
+      "title": "ttr",
+      "description": "xsssd",
+      "status": "doing",
+      "priority": "high",
+      "assignedTo": "3",
+      "dueDate": "2025-12-24",
+      "id": "tus2HzR"
+    }
+  ]
+}
