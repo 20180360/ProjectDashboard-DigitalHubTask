@@ -9,7 +9,7 @@ Supports Admin, Project Manager, and Developer roles.
 
 This project is a task management dashboard built with:
 
-- **Frontend:** Next.js, React, TypeScript, Tailwind CSS, React Query, React Hook Form, Zod
+- **Frontend:** Next.js,  TypeScript, Tailwind CSS, React Hook Form
 - **WebSocket:** Real-time updates for tasks
 - **Database:** JSON-based local database (`db.json`) for simplicity
 - **Authentication:** Email & Password based login
