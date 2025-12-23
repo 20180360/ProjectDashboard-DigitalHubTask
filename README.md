@@ -55,7 +55,7 @@ npm install
 ### Run Backend Server
 
 node generate-db      # Generate initial JSON database with default users, projects, and tasks
-npm run dev              # Start backend server at http://localhost:5000
+node server.js             # Start backend server at http://localhost:5000
 
 ### 4️⃣ Run Frontend
 
