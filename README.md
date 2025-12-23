@@ -68,7 +68,7 @@ Login using one of the predefined users
 
 cd websocket-server
 
-node ws-server
+node ws-server.js
 
 WebSocket server running on ws://localhost:3001
 
