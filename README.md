@@ -66,11 +66,11 @@ Login using one of the predefined users
 
 ### 5️⃣ WebSocket (Real-time Updates)
 
-WebSocket is already integrated in the frontend
+cd websocket-server
 
-The useRealTimeUpdates hook connects automatically to receive task updates
+node ws-server
 
-No separate server required for demo purposes
+WebSocket server running on ws://localhost:3001
 
 
 ### Usage
